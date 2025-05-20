@@ -45,3 +45,7 @@
   background-color: #ff0;
   border: 5px solid #000;
 }
+#resetButton{
+  display: flex;
+  justify-self: center;
+}
