@@ -1,5 +1,13 @@
 const COLORS = ['#fff', '#ff0', '#16c', '#f00'];
 const cells = document.querySelectorAll('.mainFrame td');
+let rstbtn=document.getElementById("resetButton")
+
+//當按鈕被點擊時，所有格子回到初始狀態的顏色
+rstbtn.addEventListener("click",()=>{
+  cells.forEach(c=>{
+    c.style.backgroundColor='';
+  })
+})
 
 cells.forEach(cell => {
   cell.addEventListener('mouseenter', () => {
