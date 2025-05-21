@@ -46,6 +46,7 @@
   border: 5px solid #000;
 }
 #resetButton{
+  max-width:8.15em;
   display: flex;
-  justify-self: center;
+  align-self: center;
 }
